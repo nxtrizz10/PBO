@@ -1,0 +1,40 @@
+LOOPING
+
+1. FOR
+
+public class LatihanFor {
+    public static void main(String[] args) {
+        for (int i=10;i > 0;i--){
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+        }
+        System.out.println("Tinggal induknya");
+    }
+}
+
+2. WHILE
+
+public class LatihanWhile {
+    public static void main(String[] args) {
+        int i = 10;
+        while (i > 0){
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+            i--;
+        }
+        System.out.println("Tinggal induknya");
+    }
+    
+}
+
+3. DO - WHILE
+
+public class LatihanDoWhile {
+    public static void main(String[] args) {
+        int i = 10;
+        do {
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+            i--;
+        }
+        while (i > 0);
+        System.out.print("Tinggal induknya.");
+    }
+}
